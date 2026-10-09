@@ -1,0 +1,31 @@
+# Model Checkpoints (Heavy binary files)
+*.pth
+*.pt
+*.onnx
+
+# Dataset (Stanford MRNet dataset)
+MRNet-v1.0/
+*.npy
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDEs & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary & Log files
+*.log
+tmp/
+scratch/

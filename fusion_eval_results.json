@@ -1,0 +1,47 @@
+{
+    "Axial Plane (PD Series)": {
+        "ROC_AUC": 0.8874859708193041,
+        "ROC_AUC_95_CI": [
+            0.8251683501683501,
+            0.938001140523796
+        ],
+        "ROC_AUC_CI_Formatted": "0.887 [0.825 - 0.938]",
+        "Optimal_Threshold": 0.5875827074050903,
+        "Accuracy": 0.8166666666666667,
+        "Recall (Sensitivity)": 0.7407407407407407,
+        "Precision": 0.8333333333333334,
+        "F1_Score": 0.7843137254901961,
+        "Sens_at_80_Spec": 0.7592592592592593,
+        "Sens_at_90_Spec": 0.6666666666666666
+    },
+    "Sagittal Plane (T2 Series - Primary ACL View)": {
+        "ROC_AUC": 0.8664421997755332,
+        "ROC_AUC_95_CI": [
+            0.7990983703034794,
+            0.9194480684058268
+        ],
+        "ROC_AUC_CI_Formatted": "0.866 [0.799 - 0.919]",
+        "Optimal_Threshold": 0.5574566721916199,
+        "Accuracy": 0.7916666666666666,
+        "Recall (Sensitivity)": 0.7592592592592593,
+        "Precision": 0.7735849056603774,
+        "F1_Score": 0.7663551401869159,
+        "Sens_at_80_Spec": 0.7592592592592593,
+        "Sens_at_90_Spec": 0.6296296296296297
+    },
+    "Multi-Plane Fused Ensemble (Sagittal + Axial)": {
+        "ROC_AUC": 0.8905723905723906,
+        "ROC_AUC_95_CI": [
+            0.8295548661864451,
+            0.9390969733021306
+        ],
+        "ROC_AUC_CI_Formatted": "0.891 [0.830 - 0.939]",
+        "Optimal_Threshold": 0.43122827085242366,
+        "Accuracy": 0.825,
+        "Recall (Sensitivity)": 0.7407407407407407,
+        "Precision": 0.851063829787234,
+        "F1_Score": 0.7920792079207921,
+        "Sens_at_80_Spec": 0.7962962962962963,
+        "Sens_at_90_Spec": 0.6851851851851852
+    }
+}

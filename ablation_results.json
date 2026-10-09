@@ -1,0 +1,22 @@
+{
+    "Slice Mean-Pooling": {
+        "ROC_AUC": 0.5404,
+        "Accuracy": 0.4500,
+        "Finding": "Fails because focal tears occupy 1-2 slices out of 16; averaging dilutes the lesion signal."
+    },
+    "Attention-Only (No LSTM)": {
+        "ROC_AUC": 0.7233,
+        "Accuracy": 0.5833,
+        "Finding": "Learns slice importance weights, improving over naive mean-pooling."
+    },
+    "Slice Max-Pooling (Baseline)": {
+        "ROC_AUC": 0.7823,
+        "Accuracy": 0.7083,
+        "Finding": "Isolates maximum slice activation feature map."
+    },
+    "BiLSTM + Attention (Proposed)": {
+        "ROC_AUC": 0.8490,
+        "Accuracy": 0.8083,
+        "Finding": "Captures 3D spatial slice sequence continuity across anatomical planes."
+    }
+}
